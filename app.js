@@ -6,5 +6,5 @@ app.get('', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log('Este app está escutando na port ${PORT}');
+    console.log(`Este app está escutando na port ${PORT}`);
 });
